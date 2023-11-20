@@ -5,6 +5,7 @@ def rps_game(player1_choice, player2_choice):
         return "please choose : (rock,paper,scissors)"
 
     if player1_choice == player2_choice:
+        
         return "even! both players chose same thing"
 
     if (
