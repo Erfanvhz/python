@@ -8,6 +8,7 @@ class JungleGame:
 
     def create_deck(self):
         symbols = ["Lion", "Monkey", "Snake", "Elephant", "Parrot"]
+        
         deck = symbols * 10  # 10 cards for each symbol
         random.shuffle(deck)
         return deck
