@@ -7,6 +7,7 @@ def fisherman_game():
 
     while True:
         print(f"Balance: ${balance}")
+        
         weight = float(input("Enter the weight of fish (in kilograms, positive for buying, negative for selling): "))
 
         if weight > 0:
